@@ -1,12 +1,13 @@
 import React, { useRef } from 'react';
 import './portfolio.scss';
 import { useScroll, useSpring,motion, useTransform } from 'framer-motion';
+import KrispX from '../../assets/krispHome.png';
 
 
 const items = [
   {id:1,
    title:'KrispX Buyer Application',
-   img:'',
+   img:KrispX,
    desc:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quisquam illo nobis ea adipisci libero nostrum minima quos consectetur esse itaque, fuga, ab mollitia incidunt molestias quidem nihil dignissimos distinctio!',
   },
   {id:2,

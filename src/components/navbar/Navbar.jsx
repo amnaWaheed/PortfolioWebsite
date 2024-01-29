@@ -11,8 +11,8 @@ const Navbar = () => {
         <div className="wrapper">
             <motion.span initial={{opacity:0,scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}} >Amna Waheed</motion.span>
             <div className="social">
-            <a href="#"><LinkedIn/></a>
-            <a href="#"><GitHub/></a>
+            <a href="https://www.linkedin.com/in/amna-waheed-5a3872193/" target="_blank"><LinkedIn/></a>
+            <a href="https://github.com/amnaWaheed" target="_blank"><GitHub/></a>
             </div>
         </div>
     </div>
